@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Mat_Handpaint_ElectricPole
-  m_Shader: {fileID: -6465566751694194690, guid: 68175099259e1cd41b3ea5f6a087a8e1, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 5d94ea490245a17428f9ac5952afb5c0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -80,6 +80,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 2e0873133db00554db67d49ee5117a0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -118,14 +122,18 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Master_Tiling: 1
+    - _Max: 1
     - _Metalic: 0
     - _Metallic: 0
+    - _Min: 0.3
+    - _Noise_intensity: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Roughness: 1
+    - _Shades: 0.49
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
