@@ -20,6 +20,12 @@
         },
         {
             "m_Id": "ddb0c1bc380940009bcc78f992253830"
+        },
+        {
+            "m_Id": "f7c47348727749be972c4a7d52f008ff"
+        },
+        {
+            "m_Id": "bb243fd3ea944559b38d5794db863221"
         }
     ],
     "m_Keywords": [],
@@ -788,8 +794,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 2309.333251953125,
-            "y": 893.3333740234375
+            "x": 940.6666259765625,
+            "y": 702.0
         },
         "m_Blocks": [
             {
@@ -805,8 +811,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 2309.333251953125,
-            "y": 1086.6666259765625
+            "x": 940.6666259765625,
+            "y": 895.3334350585938
         },
         "m_Blocks": [
             {
@@ -847,9 +853,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 335.3332824707031,
-            "y": 785.3333740234375,
-            "width": 106.66656494140625,
+            "x": 33.33333206176758,
+            "y": 903.9999389648438,
+            "width": 106.66667175292969,
             "height": 36.0
         }
     },
@@ -3974,10 +3980,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1008.66650390625,
-            "y": 1173.333251953125,
-            "width": 95.333251953125,
-            "height": 36.0001220703125
+            "x": -1008.6666870117188,
+            "y": 1172.666748046875,
+            "width": 95.3333740234375,
+            "height": 36.0
         }
     },
     "m_Slots": [
@@ -4162,10 +4168,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 512.6666870117188,
-            "y": 741.3333740234375,
-            "width": 209.3333740234375,
-            "height": 303.9998779296875
+            "x": 562.0000610351563,
+            "y": 780.666748046875,
+            "width": 209.33331298828126,
+            "height": 304.0001220703125
         }
     },
     "m_Slots": [
@@ -4216,6 +4222,12 @@
         },
         {
             "m_Id": "ddb0c1bc380940009bcc78f992253830"
+        },
+        {
+            "m_Id": "f7c47348727749be972c4a7d52f008ff"
+        },
+        {
+            "m_Id": "bb243fd3ea944559b38d5794db863221"
         }
     ]
 }
@@ -4581,6 +4593,36 @@
         "y": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "bb243fd3ea944559b38d5794db863221",
+    "m_Guid": {
+        "m_GuidSerialized": "61cf7590-eebf-4b7b-9327-63c09f719b2d"
+    },
+    "m_Name": "Shadow",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Shadow",
+    "m_DefaultReferenceName": "_Shadow",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.0,
+        "g": 0.3717947006225586,
+        "b": 1.0,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
@@ -5462,9 +5504,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 0.0
     },
     "isMainColor": false,
@@ -5660,6 +5702,36 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "f7c47348727749be972c4a7d52f008ff",
+    "m_Guid": {
+        "m_GuidSerialized": "b535adb0-3c1a-4e78-afeb-78c50b1fa038"
+    },
+    "m_Name": "Light",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Light",
+    "m_DefaultReferenceName": "_Light",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
