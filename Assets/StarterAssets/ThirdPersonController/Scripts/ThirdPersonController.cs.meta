@@ -1,5 +1,14 @@
 fileFormatVersion: 2
 guid: 26e54e5a728a9234ab24fcf1460ed8a2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 196526
@@ -8,14 +17,3 @@ AssetOrigin:
   packageVersion: 1.1.5
   assetPath: Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
   uploadId: 691128
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences:
-  - LandingAudioClip: {instanceID: 0}
-  - CinemachineCameraTarget: {fileID: 1182413430474460754, guid: 5bc7312d763b6d048abeddceb49b1013, type: 3}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
