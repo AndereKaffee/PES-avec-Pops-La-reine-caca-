@@ -674,6 +674,7 @@ GameObject:
   - component: {fileID: 1844035851}
   - component: {fileID: 1844035853}
   - component: {fileID: 1844035852}
+  - component: {fileID: 1844035854}
   m_Layer: 0
   m_Name: ChickenMotor
   m_TagString: Untagged
@@ -707,7 +708,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -334000983
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 3
   m_Acceleration: 26
   avoidancePriority: 50
   m_AngularSpeed: 1000
@@ -739,11 +740,39 @@ MonoBehaviour:
   isPlayer:
     serializedVersion: 2
     m_Bits: 64
+  idleTime: 3
   walkPointRange: 10
-  sightRange: 0
+  sightRange: 10
   fleeSpeed: 7
-  walkSpeed: 0
+  walkSpeed: 3
   isHeld: 0
+--- !u!54 &1844035854
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844035850}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1865732298
 GameObject:
   m_ObjectHideFlags: 0
