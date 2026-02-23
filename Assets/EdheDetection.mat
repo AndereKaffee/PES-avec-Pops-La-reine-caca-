@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EdgeDetection
-  m_Shader: {fileID: -6465566751694194690, guid: e69c9e80b2431524cafe810bd1c2f183, type: 3}
+  m_Name: EdheDetection
+  m_Shader: {fileID: -6465566751694194690, guid: fec91124ea3efe84ea9004a6d2436b88, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
