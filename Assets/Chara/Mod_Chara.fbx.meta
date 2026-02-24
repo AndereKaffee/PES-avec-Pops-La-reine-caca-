@@ -85,7 +85,12 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Mod_Chara(Clone)
+      parentName: 
+      position: {x: -0.0011375237, y: 0.0018174687, z: 0.00033741278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
