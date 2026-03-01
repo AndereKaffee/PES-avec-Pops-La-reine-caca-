@@ -3,7 +3,12 @@ guid: 5b67789fa88842840a0a5963749d1536
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: bde4d34404881534db7796c462d8653f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -82,7 +87,7 @@ ModelImporter:
     bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
-    maxBonesPerVertex: 4
+    maxBonesPerVertex: 10
     minBoneWeight: 0.001
     optimizeBones: 1
     meshOptimizationFlags: -1
