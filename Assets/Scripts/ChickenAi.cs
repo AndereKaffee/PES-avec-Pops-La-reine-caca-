@@ -65,6 +65,7 @@ public class ChickenAi : MonoBehaviour
 
     private void Patroling()
     {
+        animator.SetBool("isWalking", agent.velocity.magnitude > 0.1f);
         agent.speed = walkSpeed;
         if (!m_walkPointSet)
         {
